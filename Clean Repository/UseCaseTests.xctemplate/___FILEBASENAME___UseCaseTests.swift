@@ -6,6 +6,7 @@
 import Foundation
 import XCTest
 import RxSwift
+@testable import ___PROJECTNAMEASIDENTIFIER___
 
 struct ___VARIABLE_repositoryName___RepositoryMock: ___VARIABLE_repositoryName___RepositoryType {
     
