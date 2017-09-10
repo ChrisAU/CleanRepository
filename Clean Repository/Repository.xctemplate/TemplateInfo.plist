@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MyService</string>
+	<string>Example</string>
 	<key>Description</key>
 	<string>This generates a new repository provider to manage your repository.</string>
 	<key>Kind</key>

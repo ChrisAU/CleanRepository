@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MyService</string>
+	<string>Example</string>
 	<key>Description</key>
 	<string>This generates a new use case provider to supply workers for your specific business logic.</string>
 	<key>Kind</key>
@@ -12,11 +12,11 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the service to create</string>
+			<string>The name of the use case provider to create</string>
 			<key>Identifier</key>
-			<string>serviceName</string>
+			<string>useCaseProviderName</string>
 			<key>Name</key>
-			<string>New Service Name:</string>
+			<string>UseCaseProvider Name:</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -26,7 +26,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_useCaseName:identifier___</string>
+			<string>___VARIABLE_useCaseProviderName:identifier___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>
@@ -34,11 +34,11 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_serviceName:identifier___UseCaseProvider</string>
+			<string>___VARIABLE_useCaseProviderName:identifier___UseCaseProvider</string>
 			<key>Description</key>
 			<string>The use case provider name</string>
 			<key>Identifier</key>
-			<string>useCaseProviderName</string>
+			<string>useCaseProviderNamePresentation</string>
 			<key>Name</key>
 			<string>UseCase Provider Name:</string>
 			<key>Required</key>

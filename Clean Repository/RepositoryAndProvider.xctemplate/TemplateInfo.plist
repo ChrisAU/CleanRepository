@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MyService</string>
+	<string>Example</string>
 	<key>Description</key>
 	<string>This generates a new service using Uncle Bob&apos;s clean architecture. It consists of the repository, repository provider, use case, and use case provider.</string>
 	<key>Kind</key>

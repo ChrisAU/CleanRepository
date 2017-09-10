@@ -5,12 +5,12 @@
 
 import Foundation
 
-protocol ___VARIABLE_useCaseName___UseCaseProviderType {
-    func make___VARIABLE_useCaseName___UseCase() -> ___VARIABLE_useCaseName___UseCaseType
+protocol ___VARIABLE_useCaseProviderName___UseCaseProviderType {
+    func make___VARIABLE_useCaseProviderName___UseCase() -> ___VARIABLE_useCaseProviderName___UseCaseType
 }
 
-struct ___VARIABLE_useCaseName___UseCaseProvider: ___VARIABLE_useCaseName___UseCaseProviderType {
-    func make___VARIABLE_useCaseName___UseCase() -> ___VARIABLE_useCaseName___UseCaseType {
+struct ___VARIABLE_useCaseProviderName___UseCaseProvider: ___VARIABLE_useCaseProviderName___UseCaseProviderType {
+    func make___VARIABLE_useCaseProviderName___UseCase() -> ___VARIABLE_useCaseProviderName___UseCaseType {
         fatalError()
     }
 }

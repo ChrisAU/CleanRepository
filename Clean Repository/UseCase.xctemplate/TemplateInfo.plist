@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>DefaultCompletionName</key>
-	<string>MyUseCase</string>
+	<string>Example</string>
 	<key>Description</key>
 	<string>This generates a new worker to perform your specific business logic.</string>
 	<key>Kind</key>

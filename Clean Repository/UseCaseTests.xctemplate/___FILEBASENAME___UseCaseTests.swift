@@ -8,11 +8,11 @@ import XCTest
 import RxSwift
 @testable import ___PROJECTNAMEASIDENTIFIER___
 
-struct ___VARIABLE_repositoryName___RepositoryMock: ___VARIABLE_repositoryName___RepositoryType {
+class ___VARIABLE_repositoryName___RepositoryMock: ___VARIABLE_repositoryName___RepositoryType {
     
 }
 
-class ___VARIABLE_useCaseName___UseCaseTests: XCTestCase {
+final class ___VARIABLE_useCaseName___UseCaseTests: XCTestCase {
     var repository: ___VARIABLE_repositoryName___RepositoryMock!
     var useCaseProvider: ___VARIABLE_useCaseName___UseCaseProviderType!
     var useCase: ___VARIABLE_useCaseName___UseCaseType!
